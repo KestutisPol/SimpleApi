@@ -18,5 +18,14 @@
   "homepage": "https://github.com/KestutisPol/CluedInAssignment#readme",
   "devDependencies": {
     "auto-changelog": "^1.16.2"
+  },
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": "keepachangelog",
+    "unreleased": true,
+    "commitLimit": false,
+    "includeBranch": [
+      "master"
+    ]
   }
 }
