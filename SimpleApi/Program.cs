@@ -25,7 +25,8 @@ namespace CluedInAssignment
                 Console.WriteLine();
                 Console.WriteLine("Name {0,-30} Email {1,5:N1} Phone {2,5:N1}", cmp.details.name, cmp.details.email, cmp.details.phoneNumber);
                 Console.WriteLine();
-				Console.WriteLine();
+				Console.WriteLine("auto-changelog");
+				
 
                 Console.WriteLine("{0}", "Company Employees");
                 foreach (var employee in cmp.employees)
